@@ -1,10 +1,12 @@
 import React from 'react'
+import Sidebar from './Sidebar Section/Sidebar'
+import Body from './Body Section/Body'
 
 const Dashboard = () => {
   return (
-    <div>
-        <h1>This is Dashboard page</h1>
-        <a href="/">Logout</a>
+    <div className='container'>
+        <Sidebar/>
+        <Body/>
     </div>
   )
 }
